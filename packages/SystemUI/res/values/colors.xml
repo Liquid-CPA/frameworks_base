@@ -154,7 +154,4 @@
     <color name="exposed_headsup_scrim_start">#55000000</color>
     <color name="exposed_headsup_scrim_end">#00000000</color>
 
-    <!-- Network speed indicator -->
-    <color name="status_bar_traffic_color">#FFFFFFFF</color>
-
 </resources>

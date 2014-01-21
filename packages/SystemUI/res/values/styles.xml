@@ -89,6 +89,7 @@
         <item name="android:textColor">@color/status_bar_clock_color</item>
     </style>
 
+<<<<<<< HEAD
     <style name="TextAppearance.StatusBar.Expanded" parent="@*android:style/TextAppearance.StatusBar">
         <item name="android:textStyle">normal</item>
         <!-- exposed for theming -->
@@ -101,6 +102,9 @@
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/status_bar_traffic_color</item>
     </style>
+=======
+    <style name="TextAppearance.StatusBar.Expanded" parent="@*android:style/TextAppearance.StatusBar" />
+>>>>>>> 68c4555... [1/2] Base: Upgrade network traffic meter
 
     <style name="TextAppearance.StatusBar.Expanded.Clock">
         <item name="android:textSize">@dimen/qs_time_expanded_size</item>
