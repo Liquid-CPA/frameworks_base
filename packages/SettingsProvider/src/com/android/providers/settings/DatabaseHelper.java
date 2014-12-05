@@ -2289,6 +2289,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
             loadIntegerSetting(stmt, Settings.System.POINTER_SPEED,
                     R.integer.def_pointer_speed);
+
+            loadIntegerSetting(stmt, Settings.System.STATUS_BAR_NOTIF_COUNT,
+                    R.integer.def_notif_count);
+
         } finally {
             if (stmt != null) stmt.close();
         }
