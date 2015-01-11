@@ -2098,4 +2098,8 @@
   <!-- Config.xml entries -->
   <java-symbol type="integer" name="config_backKillTimeout" />
 
+  <!-- First boot install dialog -->
+  <java-symbol type="string" name="android_installing_apk" />
+  <java-symbol type="string" name="android_installing_title" />
+
 </resources>
