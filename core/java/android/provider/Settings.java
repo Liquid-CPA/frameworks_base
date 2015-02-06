@@ -2234,28 +2234,6 @@ public final class Settings {
         public static final String STATUS_BAR_TICKER_ENABLED = "status_bar_ticker_enabled";
 
         /**
-         * The keyboard brightness to be used while the screen is on.
-         * Valid value range is between 0 and {@link PowerManager#getMaximumKeyboardBrightness()}
-         * @hide
-         */
-        public static final String KEYBOARD_BRIGHTNESS = "keyboard_brightness";
-
-        /**
-         * The button brightness to be used while the screen is on or after a button press,
-         * depending on the value of {@link BUTTON_BACKLIGHT_TIMEOUT}.
-         * Valid value range is between 0 and {@link PowerManager#getMaximumButtonBrightness()}
-         * @hide
-         */
-        public static final String BUTTON_BRIGHTNESS = "button_brightness";
-
-        /**
-         * The time in ms to keep the button backlight on after pressing a button.
-         * A value of 0 will keep the buttons on for as long as the screen is on.
-         * @hide
-         */
-        public static final String BUTTON_BACKLIGHT_TIMEOUT = "button_backlight_timeout";
-
-        /**
          * Control whether the process CPU usage meter should be shown.
          *
          * @deprecated Use {@link Global#SHOW_PROCESSES} instead
@@ -4491,12 +4469,6 @@ public final class Settings {
         public static final String DEVICE_HOSTNAME = "device_hostname";
 
         /**
-         * The hostname for this device
-         * @hide
-         */
-        public static final String DEVICE_HOSTNAME = "device_hostname";
-
-        /**
          * Setting to allow mock locations and location provider status to be injected into the
          * LocationManager service for testing purposes during application development.  These
          * locations and status values  override actual location and status information generated
@@ -5980,7 +5952,7 @@ public final class Settings {
             PRIVACY_GUARD_NOTIFICATION,
             ADVANCED_REBOOT,
             STATUS_BAR_LOCKED_ON_SECURE_KEYGUARD,
-            LOCKSCREEN_QUICK_UNLOCK_CONTROL
+            LOCKSCREEN_QUICK_UNLOCK_CONTROL,
             DEVELOPMENT_SHORTCUT
         };
 
